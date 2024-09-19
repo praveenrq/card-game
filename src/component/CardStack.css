@@ -1,0 +1,25 @@
+.flip-card {
+  perspective: 1000px; /* Enables 3D effect */
+}
+
+.flip-card-inner {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg); /* Card flip on hover */
+}
+
+.flip-card-front,
+.flip-card-back {
+  backface-visibility: hidden; /* Hide back when facing front */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg); /* Flip back side */
+}

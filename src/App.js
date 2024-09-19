@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import CardStack from "./component/board";
+import GameBoard from "./component/board";
+// import { useEffect, useState } from "react";
+// import Gamex from "./component/game";
+// import { Kopp } from "./component/card-flip";
+// import Board from "./component/transition-comb";
+import MotionCard from "./component/motion";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex flex-1">
+      {/* <Gamex /> */}
+      {/* <AppContainer /> */}
+      {/* <Kopp /> */}
+      {/* <Board /> */}
+      {/* <MotionCard /> */}
+      {/* <GameBoard /> */}
+      <CardStack />
     </div>
   );
 }

@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+#playerCards {
+  clear: both;
+  /* width:100%; */
+  min-height: 220px;
+}
+
+.card {
+  box-sizing: border-box;
+  width: 10vmin;
+  height: 14vmin;
+  margin: 10px;
+  float: left;
+  background-color: white;
+  /* background-image: url('https://i.imgur.com/yKggR5N.png'); */
+  background-image: url("newbackground.png");
+  /* background-size: cover; */
+  background-position-x: 0px;
+  background-position-y: center;
+  background-repeat: none;
+  background-position: middle center;
+  border: 1px #555555 solid;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 3px 0px #000000;
+  box-shadow: 2px 2px 3px 0px #000000;
+}

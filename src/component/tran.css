@@ -1,0 +1,27 @@
+body {
+  font-family: Tahoma, sans-serif;
+}
+
+.deck {
+  position: absolute;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  border: 1px solid #222;
+  background: #779;
+  width: 75px;
+  height: 120px;
+  border-radius: 10px;
+  &:hover {
+    cursor: pointer;
+    background: #799;
+  }
+  .inner {
+    font-weight: bold;
+    text-align: center;
+  }
+}
